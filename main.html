@@ -26,6 +26,14 @@
                     to make the cut? Lets calculate your theoretical lap time to see where you stand.
                 </p>
             </div>
+
+            <div class="Times-To-Beat"> 
+                <p> List of Times to Beat:  <br>
+                    Nurburgring: 3292 seconds <br>
+                    Pikes Peak: 2742 seconds <br>
+                    Le Mans: 1200 seconds
+                </p>
+            </div>
         </div>
 
         <div class="THREE">
@@ -134,37 +142,39 @@
             <div class="Data-Manipulation">
                 <header> RACING </header>
                 <label> Pick Your RaceTrack
-                    <select id="Track-Selector">
-                        <option value="Nurburgring">Nurburgring</option>
-                        <option value="Pikes-Peak">Pikes Peak</option>
-                        <option value="Le-Mans"> Le Mans</option>
+                    <select class="Track-Selector">
+                        <option value="300">Nurburgring</option>
+                        <option value="250">Pikes Peak</option>
+                        <option value="100"> Le Mans</option>
                     </select>
                 </label>
 
                 <label> Pick Your Racecar
-                    <select id="Car-Selector">
-                        <option value="VW-IDR"> VW IDR</option>
-                        <option value="Redbull-Racer"> Redbull Racer</option>
-                        <option value="Nascar"> Nascar</option>
+                    <select class="Car-Selector">
+                        <option value="10"> VW IDR</option>
+                        <option value="11"> Peugot Hillclimb</option>
+                        <option value="12"> Nascar</option>
                     </select>
                 </label>
 
                 <label> Pick The Weather Conditions
-                    <select id="Weather-Conditions">
-                        <option value="Hot-and-Dry"> Hot N Dry</option>
-                        <option value="Hot-and-Humid"> Hot N Humid</option>
-                        <option value="Cold-and-Wet"> Cold N Wet</option>
-                        <option value="Snowing"> Snowing</option>
+                    <select class="Weather-Conditions">
+                        <option value="-1000"> Hot N Dry</option>
+                        <option value="-500"> Hot N Humid</option>
+                        <option value="1000"> Cold N Wet</option>
+                        <option value="2500"> Snowing</option>
                     </select>
                 </label>
             </div>
             
-            <div class="Lap-Time-Display"> Lap-Time-Display 
-                <section id="Top-display">
-                    <header id="Display"> Sample of Lap Time </header>
-                </section>
+            <div class="Lap-Time-Display"> <p> Click the button above to see your time </p>
             </div>
 
+            <footer>
+                <div class="Timing">
+                <button id="Time-btn">Time</button>
+                </div>
+            </footer>
         </div>
 
 
