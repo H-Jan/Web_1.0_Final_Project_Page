@@ -1,0 +1,94 @@
+
+.ONE {
+    background-image: url(Nurburgring_2.jpg);
+    min-height: 150vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ONE-A {
+    display: flex;
+    font: Times;
+    font-size: 50px;
+    justify-content: center;
+    padding-top: 290px;
+    color: white;
+    flex-direction: row-reverse;
+}
+
+.TWO {
+    background-image: url(Red_Bull_Pit_Stop.jpeg);
+    min-height: 150vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TWO-A {
+    display: flex;
+    font: Times;
+    font-size: 55px;
+    justify-content: center;
+    padding-top: 290px;
+    color: red;
+}
+
+.TWO-B {
+    display: flex;
+    font: Times;
+    font-size: 55px;
+    justify-content: center;
+    margin: 50px 50px 50px 50px;
+    color: aqua;
+    background-color: white;
+}
+
+.THREE {
+    background-image: url(Pikes_Peak.jpg);
+    min-height: 150vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.THREE-A {
+    display: flex;
+    font: Times;
+    font-size: 55px;
+    justify-content: center;
+    padding-top: 290px;
+    color: pink;
+}
+
+.THREE-B {
+    display: flex;
+    justify-content: center;
+}
+    
+.THREE-B ul {
+    display: flex;
+    list-style: none;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card31 {
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+
+.card32 {
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+
+.card33 {
+    display: flex;
+    padding: 20px;
+}
+
