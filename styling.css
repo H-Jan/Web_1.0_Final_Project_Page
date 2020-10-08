@@ -68,27 +68,132 @@
     display: flex;
     justify-content: center;
 }
-    
+
 .THREE-B ul {
     display: flex;
     list-style: none;
-    margin: 10px 10px 10px 10px;
-    padding: 20px;
     justify-content: center;
 }
 
-.card31 {
-    display: flex;
-    margin: 10px 10px 10px 10px;
+.card3 {
+    width: 400px;
+    margin: 1em;
+    background-color: blue;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 }
 
-.card32 {
-    display: flex;
-    margin: 10px 10px 10px 10px;
+.card3 img {
+    width: 400px;
+    max-height: 600px;
 }
 
-.card33 {
+.card3 h1 {
+    font-size: 2em;
+    font: Times;
+}
+
+.card3 h1, .card3 p {
+    margin: 1rem;
+}
+
+.FOUR {
+    background-image: url(Pikes_Peak.jpg);
+    min-height: 150vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.FOUR-A {
     display: flex;
-    padding: 20px;
+    font: Times;
+    font-size: 55px;
+    justify-content: center;
+    padding-top: 290px;
+    color: pink;
+}
+
+.FOUR-B {
+    display: flex;
+    justify-content: center;
+}
+
+.FOUR-B ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.card4 {
+    width: 400px;
+    margin: 1em;
+    background-color: blue;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.44);
+}
+
+.card4 img {
+    width: 400px;
+    max-height: 225px;
+}
+
+.card4 h2 {
+    font-size: 2em;
+    font: Times;
+}
+
+.card4 h2, .card4 p {
+    margin: 1rem;
+}
+
+.FIVE {
+    background-image: url(Pikes_Peak.jpg);
+    min-height: 150vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.FIVE-A {
+    display: flex;
+    font: Times;
+    font-size: 55px;
+    justify-content: center;
+    padding-top: 290px;
+    color: pink;
+}
+
+.FIVE-B {
+    display: flex;
+    justify-content: center;
+}
+
+.FIVE-B ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.card5 {
+    width: 400px;
+    margin: 1em;
+    background-color: blue;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.44);
+}
+
+.card5 img {
+    width: 400px;
+    max-height: 225px;
+}
+
+.card5 h3 {
+    font-size: 2em;
+    font: Times;
+}
+
+.card5 h3, .card5 p {
+    margin: 1rem;
 }
 
