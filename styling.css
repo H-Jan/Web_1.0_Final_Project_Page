@@ -11,7 +11,9 @@
 .ONE-A {
     display: flex;
     font: Times;
-    font-size: 50px;
+    font-size: 120px;
+    font-style: italic;
+    font-weight: bold;
     justify-content: center;
     padding-top: 290px;
     color: white;
@@ -33,17 +35,23 @@
     font-size: 55px;
     justify-content: center;
     padding-top: 290px;
-    color: red;
+    color: white;
+    font-weight: bold;
 }
 
 .TWO-B {
     display: flex;
-    font: Times;
-    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
     justify-content: center;
     margin: 50px 50px 50px 50px;
-    color: aqua;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    color: black;
     background-color: white;
+    opacity: 0.8;
 }
 
 .THREE {
@@ -61,7 +69,7 @@
     font-size: 55px;
     justify-content: center;
     padding-top: 290px;
-    color: pink;
+    color: navajowhite;
 }
 
 .THREE-B {
@@ -78,7 +86,8 @@
 .card3 {
     width: 400px;
     margin: 1em;
-    background-color: blue;
+    background-color: navajowhite;
+    opacity: 0.8;
     box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 }
 
@@ -90,10 +99,14 @@
 .card3 h1 {
     font-size: 2em;
     font: Times;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .card3 h1, .card3 p {
     margin: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 .FOUR {
@@ -111,7 +124,7 @@
     font-size: 55px;
     justify-content: center;
     padding-top: 290px;
-    color: pink;
+    color: navajowhite;
 }
 
 .FOUR-B {
@@ -128,8 +141,9 @@
 .card4 {
     width: 400px;
     margin: 1em;
-    background-color: blue;
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.44);
+    background-color: navajowhite;
+    opacity: 0.8;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 }
 
 .card4 img {
@@ -140,10 +154,14 @@
 .card4 h2 {
     font-size: 2em;
     font: Times;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .card4 h2, .card4 p {
     margin: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 .FIVE {
@@ -162,7 +180,7 @@
     font-size: 55px;
     justify-content: center;
     padding-top: 290px;
-    color: pink;
+    color: navajowhite;
 }
 
 .FIVE-B {
@@ -179,8 +197,9 @@
 .card5 {
     width: 400px;
     margin: 1em;
-    background-color: blue;
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.44);
+    background-color: navajowhite;
+    opacity: 0.8;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
 }
 
 .card5 img {
@@ -191,9 +210,40 @@
 .card5 h3 {
     font-size: 2em;
     font: Times;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .card5 h3, .card5 p {
     margin: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
+.Data-Input {
+    background-image: url(Ferrari.jpg);
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-size: 50px;
+}
+
+.Data-Manipulation {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background-color: white;
+    margin: 100px 10px 10px 100px;
+    opacity: 0.8;
+}
+
+.Lap-Time-Display {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    background-color: white;
+    margin: 100px 100px 10px 100px;
+    opacity: 0.8;
+}
